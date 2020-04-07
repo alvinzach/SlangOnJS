@@ -1,5 +1,5 @@
 export default class Statment{
-    Execute(ctx){
+    execute(ctx){
         throw new Error('Method not impelemented');
     }
 }

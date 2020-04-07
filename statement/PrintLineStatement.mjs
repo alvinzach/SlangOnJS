@@ -6,6 +6,6 @@ export default class PrintStatement extends Statment{
          this.ex=_ex;
      }
      execute(ctx){
-        console.log(this.ex.evaluate())
+        console.log(this.ex.evaluate()+"\n")
     }
 }
